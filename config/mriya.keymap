@@ -23,11 +23,11 @@
 
         default_layer {
             bindings = <
-            &kp GRAVE         &kp N1  &kp N2        &kp N3            &kp N4           &kp N5            &kp N6       &kp N7           &kp N8         &kp N9             &kp N0    &kp MINUS
-&kp ESCAPE  &kp TAB           &kp Q   &kp W         &kp E             &kp R            &kp T             &kp Y        &kp U            &kp I          &kp O              &kp P     &kp LBKT       &kp RIGHT_BRACKET
-            &kp CAPSLOCK      &kp A   &kp S         &kp D             &kp F            &kp G             &kp H        &kp J            &kp K          &kp L              &kp SEMI  &mt RCTRL SQT
-            &kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V            &kp B             &kp N        &kp M            &kp COMMA      &kp DOT            &kp FSLH  &kp BACKSLASH
-                                      &kp LEFT_ALT  &kp LEFT_COMMAND  &mt LSHFT SPACE  &lt 1 CAPSLOCK    &lt 1 ENTER  &mt RSHFT SPACE  &kp BACKSPACE  &kp RIGHT_CONTROL
+            &kp GRAVE         &kp N1  &kp N2        &kp N3            &kp N4           &kp N5            &kp N6       &kp N7           &kp N8         &kp N9         &kp N0    &kp MINUS
+&kp ESCAPE  &kp TAB           &kp Q   &kp W         &kp E             &kp R            &kp T             &kp Y        &kp U            &kp I          &kp O          &kp P     &kp LBKT       &kp RIGHT_BRACKET
+            &kp CAPSLOCK      &kp A   &kp S         &kp D             &kp F            &kp G             &kp H        &kp J            &kp K          &kp L          &kp SEMI  &mt RCTRL SQT
+            &kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V            &kp B             &kp N        &kp M            &kp COMMA      &kp DOT        &kp FSLH  &kp BACKSLASH
+                                      &kp LEFT_ALT  &kp LEFT_COMMAND  &mt LSHFT SPACE  &lt 1 CAPSLOCK    &lt 1 ENTER  &mt RSHFT SPACE  &kp BACKSPACE  &kp LS(MINUS)
             >;
         };
 
@@ -37,7 +37,7 @@
 &mo 2  &trans            &trans                &kp LEFT_BRACE        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &lt 2 ESCAPE
        &trans            &kp EXCL              &kp AT                &kp HASH          &kp DLLR              &kp PRCNT        &kp LEFT          &kp DOWN               &kp UP             &kp RIGHT          &trans            &mt RCTRL MINUS
        &kp LEFT_CONTROL  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES     &kp ASTRK         &kp AMPERSAND         &kp UNDER        &kp UNDER         &kp MINUS              &kp PLUS           &kp EQUAL          &trans            &trans
-                                               &kp LEFT_ALT          &kp LEFT_COMMAND  &kp LEFT_SHIFT        &trans           &trans            &kp RIGHT_SHIFT        &kp RIGHT_COMMAND  &kp RIGHT_ALT
+                                               &kp LEFT_ALT          &kp LEFT_COMMAND  &kp LEFT_SHIFT        &kp CAPSLOCK     &kp CAPSLOCK      &kp RIGHT_SHIFT        &kp RIGHT_COMMAND  &kp RIGHT_ALT
             >;
         };
 
